@@ -1,0 +1,60 @@
+
+Nov 04, 2016 21:10:33.34 NEW SESSION
+Nov 04, 2016 21:10:33.34 1478319033349	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 04, 2016 21:10:33.40 1478319033410	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Nov 04, 2016 21:10:33.46 1478319033466	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 04, 2016 21:10:33.48 1478319033486	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 04, 2016 21:10:33.49 1478319033506	addons.update-checker	WARN	Update manifest for {4ED1F68A-5463-4931-9384-8FFF5ED91D92} did not contain an updates property
+
+Nov 05, 2016 22:33:27.87 NEW SESSION
+Nov 05, 2016 22:33:27.87 1478410407869	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Nov 05, 2016 22:33:27.89 1478410407892	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Nov 05, 2016 22:33:27.93 1478410407936	addons.update-checker	WARN	Update manifest for {4ED1F68A-5463-4931-9384-8FFF5ED91D92} did not contain an updates property
+Nov 05, 2016 22:33:27.97 1478410407975	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Nov 05, 2016 22:33:28.38 1478410408383	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+
+Nov 22, 2016 08:36:07.82 NEW SESSION
+Nov 22, 2016 08:36:07.82 1479832567819	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:40:57.87 1479832857871	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:41:56.90 1479832916899	addons.repository	WARN	Search failed when repopulating cache
+Nov 22, 2016 08:41:57.04 1479832917045	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.04 1479832917047	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.05 1479832917049	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.05 1479832917050	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.05 1479832917052	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.05 1479832917053	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.05 1479832917054	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:41:57.05 1479832917057	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:41:57.05 1479832917059	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.06 1479832917062	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:41:57.06 1479832917066	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Nov 22, 2016 08:41:57.07 1479832917072	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Nov 22, 2016 08:41:57.07 1479832917073	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:111:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:111:16
+Nov 22, 2016 08:43:56.89 *************************
+Nov 22, 2016 08:43:56.89 A coding exception was thrown and uncaught in a Task.
+Nov 22, 2016 08:43:56.89 
+Nov 22, 2016 08:43:56.89 Full message: TypeError: NetworkError when attempting to fetch resource.
+Nov 22, 2016 08:43:56.89 Full stack: 
+Nov 22, 2016 08:43:56.89 *************************
+
+Nov 22, 2016 08:48:18.28 NEW SESSION
+Nov 22, 2016 08:48:18.29 1479833298283	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Apr 11, 2017 24:55:18.48 NEW SESSION
+Apr 11, 2017 24:55:18.48 1491897318482	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Apr 11, 2017 01:02:40.26 1491897760264	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+Apr 11, 2017 01:02:40.31 1491897760318	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Apr 11, 2017 01:02:40.35 1491897760353	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Apr 11, 2017 01:02:40.38 1491897760384	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Apr 11, 2017 01:02:40.59 1491897760590	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Apr 11, 2017 01:02:40.63 1491897760629	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+Apr 11, 2017 01:02:40.65 1491897760653	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+May 03, 2017 09:33:49.11 NEW SESSION
+May 03, 2017 09:33:49.11 1493829229107	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 03, 2017 09:33:49.21 1493829229215	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 03, 2017 09:33:49.23 1493829229238	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 03, 2017 09:33:49.25 1493829229256	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+May 03, 2017 09:33:49.44 1493829229441	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 03, 2017 09:33:49.54 1493829229546	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+May 03, 2017 09:33:49.65 1493829229652	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
