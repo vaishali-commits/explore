@@ -1,0 +1,174 @@
+;;; 
+Import: Release 10.2.0.1.0 - Production on Friday, 21 October, 2016 7:04:22
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Master table "SYSTEM"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_FULL_01":  system/******** directory=dr1 dumpfile=DUMP logfile=lg 
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+ORA-31684: Object type SYNONYM:"SYSTEM"."CATALOG" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."COL" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."PRODUCT_USER_PROFILE" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."PUBLICSYN" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."SYSCATALOG" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."SYSFILES" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."TAB" already exists
+ORA-31684: Object type SYNONYM:"SYSTEM"."TABQUOTAS" already exists
+Processing object type SCHEMA_EXPORT/TYPE/TYPE_SPEC
+ORA-31684: Object type TYPE:"SYSTEM"."REPCAT$_OBJECT_NULL_VECTOR" already exists
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"SYSTEM"."MVIEW$_ADVSEQ_GENERIC" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."MVIEW$_ADVSEQ_ID" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_EXCEPTIONS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_FLAVORS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_FLAVOR_NAME_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_REFRESH_TEMPLATES_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_REPPROP_KEY" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_RUNTIME_PARMS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_TEMPLATE_OBJECTS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_TEMPLATE_PARMS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_TEMPLATE_REFGROUPS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_TEMPLATE_SITES_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_TEMP_OUTPUT_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_USER_AUTHORIZATIONS_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT$_USER_PARM_VALUES_S" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."REPCAT_LOG_SEQUENCE" already exists
+ORA-31684: Object type SEQUENCE:"SYSTEM"."TEMPLATE$_TARGETS_S" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+ORA-39151: Table "SYSTEM"."DEF$_ERROR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_DESTINATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_CALLDEST" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_DEFAULTDEST" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_PROPAGATOR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_ORIGIN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_PUSHED_TRANSACTIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPCAT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_FLAVORS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPSCHEMA" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_SNAPGROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPOBJECT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPCOLUMN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_KEY_COLUMNS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_GENERATED" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPPROP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPCATLOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_DDL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REPGROUP_PRIVS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_PRIORITY_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_PRIORITY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_COLUMN_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_GROUPED_COLUMN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_CONFLICT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_RESOLUTION_METHOD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_RESOLUTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_RESOLUTION_STATISTICS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_RESOL_STATS_CONTROL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_PARAMETER_COLUMN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_AUDIT_ATTRIBUTE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_AUDIT_COLUMN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_FLAVOR_OBJECTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_STATUS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_TYPES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_REFRESH_TEMPLATES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_USER_AUTHORIZATIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_OBJECT_TYPES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_REFGROUPS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_OBJECT_PARMS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_SITES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_SITE_OBJECTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_TARGETS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_EXTENSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_SITES_NEW" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."SQLPLUS_PRODUCT_PROFILE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_AQCALL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_AQERROR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_LOB" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."DEF$_TEMP$LOB" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."OL$" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."OL$HINTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."OL$NODES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_OBJECTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_TEMPLATE_PARMS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_USER_PARM_VALUES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_RUNTIME_PARMS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_EXCEPTIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "SYSTEM"."REPCAT$_INSTANTIATION_DDL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+Processing object type SCHEMA_EXPORT/TABLE/PRE_TABLE_ACTION
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "SYSTEM"."ADMINTABLE"                        5.25 KB       1 rows
+. . imported "SYSTEM"."CONFERENCETABLE"                  10.39 KB      35 rows
+. . imported "SYSTEM"."CONF_TABLE"                       38.28 KB     197 rows
+. . imported "SYSTEM"."EMP"                              5.640 KB       3 rows
+. . imported "SYSTEM"."EMPLOYEETABLE"                    6.218 KB       2 rows
+. . imported "SYSTEM"."EMP_RECORD"                       5.648 KB       3 rows
+. . imported "SYSTEM"."MTABLE"                           4.960 KB       1 rows
+. . imported "SYSTEM"."REGISTERTABLE"                    7.523 KB       8 rows
+. . imported "SYSTEM"."USERT"                            6.257 KB       3 rows
+. . imported "SYSTEM"."USERT10"                          6.328 KB       5 rows
+. . imported "SYSTEM"."USERTABLE"                        6.531 KB       6 rows
+. . imported "SYSTEM"."USERTABLE1"                       5.921 KB       2 rows
+. . imported "SYSTEM"."USER_TABLE40"                     5.632 KB       4 rows
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+ORA-31684: Object type PACKAGE:"SYSTEM"."DBMS_REPCAT_AUTH" already exists
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+ORA-31684: Object type PROCEDURE:"SYSTEM"."ORA$_SYS_REP_AUTH" already exists
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_WORKLOAD" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_FILTER" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_LOG" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_FILTERINSTANCE" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_RECOMMENDATIONS" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_EVALUATIONS" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."MVIEW_EXCEPTIONS" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."AQ$DEF$_AQCALL" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."AQ$_DEF$_AQCALL_F" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."AQ$DEF$_AQERROR" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."AQ$_DEF$_AQERROR_F" already exists
+ORA-31684: Object type VIEW:"SYSTEM"."PRODUCT_PRIVS" already exists
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_WORKLOAD" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTER" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_LOG" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTERINSTANCE" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_RECOMMENDATIONS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_EVALUATIONS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_EXCEPTIONS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."PRODUCT_PRIVS" already exists
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_WORKLOAD" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTER" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_LOG" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTERINSTANCE" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_RECOMMENDATIONS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_EVALUATIONS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"SYSTEM" skipped, base object type VIEW:"SYSTEM"."MVIEW_EXCEPTIONS" already exists
+Processing object type SCHEMA_EXPORT/VIEW/COMMENT
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_WORKLOAD" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTER" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_LOG" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_FILTERINSTANCE" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_RECOMMENDATIONS" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_EVALUATIONS" already exists
+ORA-39111: Dependent object type COMMENT skipped, base object type VIEW:"SYSTEM"."MVIEW_EXCEPTIONS" already exists
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+ORA-31684: Object type PACKAGE_BODY:"SYSTEM"."DBMS_REPCAT_AUTH" already exists
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/POST_TABLE_ACTION
+Processing object type SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
+Job "SYSTEM"."SYS_IMPORT_FULL_01" completed with 121 error(s) at 07:04:45
